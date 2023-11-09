@@ -1,0 +1,18 @@
+package cn.blinfra.boot.common.enums;
+
+public interface WebFilterOrderEnum {
+  int CORS_FILTER = Integer.MIN_VALUE;
+  int TRACE_FILTER = CORS_FILTER + 1;
+
+  int TENANT_CONTEXT_FILTER = -104;
+  int API_ACCESS_LOG_FILTER = TENANT_CONTEXT_FILTER + 1;
+  int XSS_FILTER = API_ACCESS_LOG_FILTER + 1;
+
+  int TENANT_SECURITY_FILTER = -99;
+
+  int ACTIVITI_FILTER = TENANT_SECURITY_FILTER + 1;
+  int FLOWABLE_FILTER = ACTIVITI_FILTER + 1;
+
+  int REQUEST_BODY_CACHE_FILTER = Integer.MIN_VALUE + 500;
+
+}

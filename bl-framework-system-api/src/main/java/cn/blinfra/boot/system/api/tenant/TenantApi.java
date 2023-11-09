@@ -1,0 +1,20 @@
+package cn.blinfra.boot.system.api.tenant;
+
+import java.util.List;
+
+/**
+ * 多租户的API接口
+ */
+public interface TenantApi {
+  /**
+   * 获得所有租户
+   * @return 租户编号数组
+   */
+  List<Long> getTenantIdList();
+
+  /**
+   * 校验租户是否合法
+   * @param id 租户编号
+   */
+  void validateTenant(Long id);
+}

@@ -1,0 +1,2 @@
+cn.blinfra.boot.starter.mybatis.BlMybatisAutoConfiguration
+cn.blinfra.boot.starter.datasource.BlDataSourceAutoConfiguration

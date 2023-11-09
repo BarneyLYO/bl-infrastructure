@@ -1,0 +1,5 @@
+cn.blinfra.boot.starter.apilog.BlApiLogAutoConfiguration
+cn.blinfra.boot.starter.jackson.BlJacksonAutoConfiguration
+cn.blinfra.boot.starter.swagger.BlSwaggerAutoConfiguration
+cn.blinfra.boot.starter.web.BlWebAutoConfiguration
+cn.blinfra.boot.starter.xss.BlXssAutoConfiguration

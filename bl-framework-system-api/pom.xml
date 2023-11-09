@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>bl-infrastructure</artifactId>
+        <groupId>cn.blinfra.boot</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <artifactId>bl-framework-system-api</artifactId>
+    <name>${project.artifactId}</name>
+    <description>
+        system 模块api调用，暴露给其他模块用
+    </description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>cn.blinfra.boot</groupId>
+            <artifactId>bl-framework-common</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+    
+    </dependencies>
+
+</project>

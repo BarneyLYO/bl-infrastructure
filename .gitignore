@@ -1,8 +1,36 @@
+################################################################################
+# Build tools
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+################################################################################
+# IDE
+## IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+## JRebel
+rebel.xml
+application-my.ymal
+
+
 # Compiled class file
 *.class
-
-# Log file
-*.log
+/bl-infrastructure/unpackage/
 
 # BlueJ files
 *.ctxt

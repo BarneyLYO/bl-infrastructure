@@ -1,0 +1,2 @@
+cn.blinfra.boot.starter.security.BlSecurityAutoConfiguration
+cn.blinfra.boot.starter.security.BlWebSecurityConfigurerAdapter
